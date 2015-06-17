@@ -39,6 +39,7 @@
 # Merge the training and the test sets to create one data set.
 ###########################
 library(plyr)
+library(memisc)
 
 # set the working directory to the location of the zipped UCI HAR Dataset
 setwd("C:/Users/BenjaminM/datasciencecoursera/GettingAndCleaningData/Assignments")
@@ -67,11 +68,10 @@ XData <- rbind(XTrain, XTest)
 YData <- rbind(YTrain, YTest)
 SubjectData <- rbind(SubjectTrain, SubjectTest)
 
-# Extracts only the measurements on the mean and standard deviation for each measurement.
-###########################
-
 features <- read.table("./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/features.txt")
 
+# Extracts only the measurements on the mean and standard deviation for each measurement.
+###########################
 # mean and std dev is in the second column of features data frame
 mean_and_standard_deviation_measurement <- grep("-(mean|std)\\(\\)", features[, 2])
 
