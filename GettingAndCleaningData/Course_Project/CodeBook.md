@@ -8,16 +8,12 @@ output: html_document
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 ## Getting and Cleaning Data Course Project
-## Benjamin Sila Mutuku
+### Benjamin Sila Mutuku
 ### 06/15/2015
 
-# The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
-# The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions
-# related to the project. 
+A full description is available at the site where the data was obtained: 
 
-# A full description is available at the site where the data was obtained: 
-
-# http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ### Process
 
