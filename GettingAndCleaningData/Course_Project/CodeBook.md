@@ -1,6 +1,7 @@
 ---
 title: "CodeBook.md"
 author: "Benjamin Sila"
+version: "1.0"
 date: "Wednesday, June 17, 2015"
 output: html_document
 ---
@@ -32,7 +33,7 @@ The run_analysis.R script performs the following steps to clean the data:
 11. Uses descriptive activity names to name the activities in the data set via the activities and YData ariables.
 12. Merge all the data
 13. Appropriately labels the data set with descriptive variable names e.g. StandardDeviation for std, or Accelerometer for Acc. 
-14. From the data set creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+14. From the data set creates a second, independent tidy data set with the average of each variable for each activity and each subject (via aggreggation of Subject + Activity, CompleteData, mean)
 15. Write to *tidydata.txt* the results.
 
 ### Variables
